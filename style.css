@@ -1,0 +1,20 @@
+.wholething {
+    display: flex;
+    border: red solid 3px;
+    flex-direction: column;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 5%;
+}
+
+body{
+    justify-content: center;
+}
+
+.searchbox{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}

@@ -4,14 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RemindME</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <input type="search" id="site-search" name="Search" />
-    <h1>RemindME</h1>
-    <button>right</button>
-    <p>score</p>
-    <button>left</button>
-    <input type="text" id="username" name="username" minlength="3" maxlength="20" required>
-    <button>Add</button>
+    <div class="wholething">
+        <div class="searchbox"><input type="search" id="site-search" name="Search" /></div>
+        <div class="headerbox"><h1>RemindME</h1></div>
+        <div class="outputbox"><p></p></div>
+        <div class="buttonbox">
+            <button>right</button>
+        </div>
+        <p>score</p>
+        <div class="buttonbox">
+            <button>left</button>
+        </div>
+        <div class="last">
+            <input type="text" id="username" name="username" minlength="3" maxlength="20" required>
+            <button>Add</button>
+        </div>
+    </div>
 </body>
 </html>
