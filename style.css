@@ -23,7 +23,7 @@ body{
     margin-bottom: 3%;
     padding-bottom: 30%;
     padding-top: 35%;
-    border: rgb(52, 51, 51) solid 3px;
+    border: rgb(52, 51, 51) solid 100%;
     outline: rgb(236, 86, 86) solid 8px;
     margin-top: 0%;
     background-color: white;
@@ -32,11 +32,11 @@ body{
 .dropbtn {
     background-color: #ffffff;
     color: rgb(171, 171, 171);
-    padding-right: 61.5%;
-    margin-left: 7%;
+    padding-right: 63%;
+    margin-left: 6%;
     margin-right: 7%; 
-    margin-top: 7%;
-    font-size: 16px;
+    margin-top: 6%;
+    font-size: 120%;
     border: none;
     outline: rgb(171, 171, 171) solid 19px;
     border-radius: 0.02px 0.02px 0px 0px;
@@ -62,34 +62,34 @@ body{
 }
 
 button{
-    background-color: yellow;
+    background-color: rgb(255, 217, 0);
     border: none;
-    font-size: 25px;
+    font-size: 175%;
 }
 
 .buttonbox1{
-    background-color: yellow;
+    background-color: rgb(255, 217, 0);
     padding-right: 5%;
     padding-left: 5%;
-    padding-top: 4%;
-    padding-bottom: 0%;   
+    padding-top: 3%;
+    padding-bottom: 1%;   
     margin-left: 3%;
-    margin-right: 3%;
+    margin-right: 4%;
     border-radius: 5px;
 }
 
 .buttonbox2{
-    background-color: yellow;
+    background-color: rgb(255, 217, 0);
     padding-right: 5%;
     padding-left: 5%;
-    padding-top: 4%;
-    padding-bottom: 0%;   
+    padding-top: 3%;
+    padding-bottom: 1%;   
     margin-right: 5%;
     border-radius: 5px;
 }
 
 .lastButton{
-    background-color: yellow;
+    background-color: rgb(255, 217, 0);
     padding-right: 2%;
     padding-left: 3%;
     margin-left: 3%;
@@ -118,13 +118,13 @@ input{
     display: flex;
     background-color: rgb(236, 86, 86);
     padding-left: 17%;
-    padding-right: 19%;
+    padding-right: 22%;
     color: white;
 
 }
 
 .resetButton{
-    background-color: yellow;
+    background-color: rgb(255, 217, 0);
     padding-right: 2%;
     padding-left: 3%;
     margin-left: 3%;

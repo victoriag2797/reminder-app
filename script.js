@@ -33,7 +33,6 @@ updateoutputbox();
 
 addButton.addEventListener('click', () => {
    let outputboxText = inputField.value.trim();
-   alert('Button clciked!' + outputboxText);//debugging
    if (outputboxText) {
        reminders.push({ score: score, text: outputboxText });
        localStorage.setItem('reminders', JSON.stringify(reminders));
