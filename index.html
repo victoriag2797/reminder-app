@@ -8,20 +8,30 @@
 </head>
 <body>
     <div class="wholething">
-        <div class="searchbox"><input type="search" id="site-search" name="Search" /></div>
-        <div class="headerbox"><h1>RemindME</h1></div>
-        <div class="outputbox"><p></p></div>
-        <div class="buttonbox">
-            <button>right</button>
+        <div class="dropdown">
+            <button class="dropbtn">Screen0</button>
         </div>
-        <p>score</p>
-        <div class="buttonbox">
-            <button>left</button>
+        <div class="headerbox"><h1>RemindME</h1></div>
+        <div class="outputbox" id="outputbox"><p></p></div>
+        <div class="thirdline">
+            <div class="buttonbox1">
+                <button><<</button>
+            </div>
+            <div class ="score" id="score"><p>0</p></div>
+            <div class="buttonbox2">
+                <button>>></button>
+            </div>
         </div>
         <div class="last">
-            <input type="text" id="username" name="username" minlength="3" maxlength="20" required>
-            <button>Add</button>
+            <input type="text" id="inputField" name="username" minlength="3" maxlength="20" required placeholder="New Reminder">
+            <div class="lastButton">
+                <button id="addButton">Add</button>
+            </div>
+        </div>
+        <div class ="resetButton">
+            <button id="resetButton">Reset</button>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
