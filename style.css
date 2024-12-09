@@ -5,11 +5,15 @@
     margin-right: 40%;
     margin-top: 10%;
     background-color: rgb(236, 86, 86);
-    border-radius: 17px 17px 17px 17px;
+    border-radius: 19px 19px 17px 17px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 body{
     justify-content: center;
+    background-color: aliceblue;
+    background-image: linear-gradient(to bottom right, aliceblue, rgb(144, 193, 239));
+    padding-bottom: 9%
 }
 
 .outputbox{
@@ -110,7 +114,7 @@ input{
     margin-bottom: 3%;
 }
 
-.score{
+.scoreContainer{
     display: flex;
     background-color: rgb(236, 86, 86);
     padding-left: 17%;
