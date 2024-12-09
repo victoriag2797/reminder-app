@@ -5,6 +5,7 @@ let addButton = document.getElementById("addButton");
 let resetButton = document.getElementById("resetButton");
 let inputField = document.getElementById("input-field");
 let outputbox = document.getElementById("outputbox");
+let testButton = document.getElementById("testButton")
 
 
 let reminders;
@@ -32,24 +33,26 @@ updateoutputbox();
 
 
 addButton.addEventListener('click', () => {
-   let outputboxText = inputField.value.trim();
-   if (outputboxText) {
-       reminders.push({ score: score, text: outputboxText });
-       localStorage.setItem('reminders', JSON.stringify(reminders));
-       let newReminder = document.createElement("p");
-       newReminder.classList.add("large-text");
-       newReminder.textContent = outputboxText;
-       outputbox.appendChild(newReminder);
-       inputField.value = "";
-   }
+    let outputboxText = inputField.value.trim();
+    if (outputboxText) {
+        console.log("Hello world!");
+        reminders.push({ score: score, text: outputboxText });
+        localStorage.setItem('reminders', JSON.stringify(reminders));
+        let newReminder = document.createElement("p");
+        newReminder.classList.add("large-text");
+        newReminder.textContent = outputboxText;
+        outputbox.appendChild(newReminder);
+        inputField.value = "";
+    }
 });
 
 
 buttonbox1.addEventListener('click', () => {
-   score++;
-   scoreContainer.textContent = score;
-   localStorage.setItem('score', score);
-   updateoutputbox();
+    console.log("Hello world!");
+    score++;
+    scoreContainer.textContent = score;
+    localStorage.setItem('score', score);
+    updateoutputbox();
 });
 
 
@@ -74,8 +77,9 @@ resetButton.addEventListener('click', () => {
    updateoutputbox();
 });
 
-
-
+testButton.addEventListener('click', () => {
+    console.log("Hello world!");
+});
 
 
 
