@@ -13,7 +13,7 @@ body{
     justify-content: center;
     background-color: aliceblue;
     background-image: linear-gradient(to bottom right, aliceblue, rgb(144, 193, 239));
-    padding-bottom: 9%
+    padding-bottom: 11%
 }
 
 .outputbox{
