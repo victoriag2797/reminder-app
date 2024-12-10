@@ -90,12 +90,12 @@ button{
     border-radius: 5px;
 }
 
-.allButton{
+.addButton{
     background-color: rgb(255, 217, 0);
     padding-right: 2%;
     padding-left: 3%;
     margin-left: 3%;
-    margin-right: 4%;
+    margin-right: 3%;
     border-radius: 5px;
 }
 
@@ -128,7 +128,7 @@ input{
 
 .resetButton{
     background-color: rgb(255, 217, 0);
-    padding-right: 2%;
+    padding-right: 5%;
     padding-left: 3%;
     margin-left: 3%;
     margin-right: 4%;
